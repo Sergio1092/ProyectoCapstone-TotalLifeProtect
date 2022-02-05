@@ -3,7 +3,7 @@
 
 ## Proyecto Capstone del Diplomado "Internet de las Cosas" de Samsung Innovation Campus y CodigoIoT.
 
-
+<!--  ![Esta es una imagen](https://raw.githubusercontent.com/TaniaZarate/ProyectoCapstone-TotalLifeProtect/main/assets/images/logos.jpg) -->
 
 > Integrantes: 
 > 
@@ -15,7 +15,6 @@
 > 
 > - Asesor: Vilchis León Paloma Alejandra. 
 > 
-> <!-- ![Esta es una imagen](https://drive.google.com/file/d/1W3erslnIWRcPW54_919nDRzlEP66Gvp7/view?usp=sharing)    -->
 
 # Introducción
 
