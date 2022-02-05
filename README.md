@@ -1,9 +1,10 @@
 # **Total Life Protect**
 
+![](https://github.com/TaniaZarate/ProyectoCapstone-TotalLifeProtect/blob/main/assets/logos.jpg)
 
 ## Proyecto Capstone del Diplomado "Internet de las Cosas" de Samsung Innovation Campus y CodigoIoT.
 
-<!--  ![Esta es una imagen](https://raw.githubusercontent.com/TaniaZarate/ProyectoCapstone-TotalLifeProtect/main/assets/images/logos.jpg) -->
+
 
 > Integrantes: 
 > 
