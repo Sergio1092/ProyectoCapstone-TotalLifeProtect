@@ -12,7 +12,7 @@
 > 
 > Zárate Chávez Tania Guadalupe, UAM Azcapotzalco, Ing. en Computación.
 > 
-> Sergio, UAM Azcapotzalco, Ing. en Computación.
+> Delgadillo Marín Sergio, UAM Azcapotzalco, Ing. en Computación.
 > 
 > - Asesor: Vilchis León Paloma Alejandra. 
 > 
