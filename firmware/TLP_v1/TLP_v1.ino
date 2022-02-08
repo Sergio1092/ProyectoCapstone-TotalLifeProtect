@@ -113,10 +113,10 @@ void loop(void) {
   Serial.print("AIN1: "); Serial.print(volts1); Serial.println("V");
   Serial.print("AIN2: "); Serial.print(volts2); Serial.println("V");
 
-  String msg = "MQ2= " + String(volts0) + "v.";
-  msg += "MQ7= " + String(volts1) + "v.";
+  String msg = "MQ2= " + String(volts0) + "v.\n";
+  msg += "MQ7= " + String(volts1) + "v.\n";
   msg += "MQ135= " + String(volts2) + "v.\n";
   bot.sendMessage(chatId, msg);
 
-  delay(1000);
+  delay(10000);
 }
