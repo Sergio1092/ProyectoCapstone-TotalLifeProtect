@@ -1,4 +1,4 @@
-# **Total Life Protect**
+# **Monitoreo de la calidad del aire utilizando como indicadores la concentración de CO, CO2 y GLP**
 
 ![](https://github.com/TaniaZarate/ProyectoCapstone-TotalLifeProtect/blob/main/assets/logos.jpg)
 
