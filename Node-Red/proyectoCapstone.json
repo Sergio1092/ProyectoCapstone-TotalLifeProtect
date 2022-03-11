@@ -1,0 +1,132 @@
+[
+    {
+        "id": "49ec19d32f92ce68",
+        "type": "tab",
+        "label": "Proyecto Capstone",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4505c2997e3686de",
+        "type": "mqtt in",
+        "z": "49ec19d32f92ce68",
+        "name": "",
+        "topic": "pCapstone/detector",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "aa3107cbb6f29f72",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "ce822770926019e6"
+            ]
+        ]
+    },
+    {
+        "id": "ce822770926019e6",
+        "type": "json",
+        "z": "49ec19d32f92ce68",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "481a040be591ec72",
+                "1fa317ca7ee7b7af"
+            ]
+        ]
+    },
+    {
+        "id": "481a040be591ec72",
+        "type": "function",
+        "z": "49ec19d32f92ce68",
+        "name": "",
+        "func": "msg.topic=\"INSERT INTO datos (idd,mq2,mq7,mq135) VALUES ('\"+msg.payload.id+\"','\"+msg.payload.mq2+\"','\"+msg.payload.mq7+\"','\"+msg.payload.mq135+\"')\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "c0b72b063a644edf"
+            ]
+        ]
+    },
+    {
+        "id": "c0b72b063a644edf",
+        "type": "mysql",
+        "z": "49ec19d32f92ce68",
+        "mydb": "118b06a2d0ae9466",
+        "name": "",
+        "x": 780,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1fa317ca7ee7b7af",
+        "type": "debug",
+        "z": "49ec19d32f92ce68",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "aa3107cbb6f29f72",
+        "type": "mqtt-broker",
+        "name": "52.28.133.146",
+        "broker": "52.28.133.146",
+        "port": "1883",
+        "clientid": "karen-sub-nivel",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "118b06a2d0ae9466",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "proyectoCapstone",
+        "tz": "",
+        "charset": "UTF8"
+    }
+]
