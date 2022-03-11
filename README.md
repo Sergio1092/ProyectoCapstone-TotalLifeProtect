@@ -81,6 +81,7 @@ El dispositivo que se propone estará en una caja estanca tipo IP67, en donde é
 En la parte superior se encuentran los 3 LEDs (verde, amarillo y rojo), en donde su funcionamiento es el siguiente:
 
 ![image](https://user-images.githubusercontent.com/90163838/157773695-15a34b30-35ce-4d0d-9b8d-42294073bf2f.png)
+
 ![image](https://user-images.githubusercontent.com/90163838/157773791-132c5883-8991-4574-8a1f-c968363406f2.png)
 
 # Funcionamiento esperado del Sistema de monitoreo de la calidad del aire utilizando como indicadores la concentración de CO, CO2 y GLP
