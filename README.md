@@ -16,6 +16,13 @@
 > 
 > - Asesor: Vilchis León Paloma Alejandra. 
 > 
+> Para **contactar** a cualquier integrante, lo puedes hacer a través de correo electrónico:
+> 
+> **Tania Zárate:** zarate.tania.ch@gmail.com
+> 
+> **Sergio Delgadillo:** al2162000251@azc.uam.mx, sergio.delgadillo@cinvestav.mx
+> 
+> **Karen Cruz:** karenmuse.99@gmail.com
 
 # Introducción
 
